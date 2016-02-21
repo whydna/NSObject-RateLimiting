@@ -31,7 +31,8 @@ const char *THROTTLE_DATA_KEY = "THROTTLE_DATA_KEY";
     
     if(!lastCalled || ([[NSDate date] timeIntervalSinceDate:lastCalled]) >= duration) {
         [throttleData setObject:[NSDate date] forKey:NSStringFromSelector(action)];
-        [self performSelector:action withObject:object];
+        __weak typeof(self) weakSelf = self;
+        [weakSelf performSelector:action withObject:object];
     }
 }
 
