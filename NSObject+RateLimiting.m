@@ -9,8 +9,6 @@
 #import "NSObject+RateLimiting.h"
 #import <objc/runtime.h>
 
-
-
 @implementation NSObject (RateLimiting)
 
 const char *THROTTLE_DATA_KEY = "THROTTLE_DATA_KEY";
@@ -29,12 +27,11 @@ const char *THROTTLE_DATA_KEY = "THROTTLE_DATA_KEY";
 - (void)throttle:(nonnull SEL)action withObject:(nullable id)object duration:(NSTimeInterval)duration {
     NSMutableDictionary *throttleData = [self getThrottleData];
 
-    NSTimeInterval lastCalled = [[throttleData objectForKey:NSStringFromSelector(action)] timeInterval];
-    NSTimeInterval now = [[NSDate date] timeIntervalSinceNow];
+    NSDate *lastCalled = [throttleData objectForKey:NSStringFromSelector(action)];
     
-    if(!lastCalled || (now - duration) >= lastCalled) {
-        [throttleData setObject:@([[NSDate date] timeIntervalSinceNow]) forKey:NSStringFromSelector(action)];
-        [self performSelector:action withObject:object afterDelay:0.0f];
+    if(!lastCalled || ([[NSDate date] timeIntervalSinceDate:lastCalled]) >= duration) {
+        [throttleData setObject:[NSDate date] forKey:NSStringFromSelector(action)];
+        [self performSelector:action withObject:object];
     }
 }
 
