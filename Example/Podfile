@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NSObject-RateLimiting_Tests' do
+  pod 'NSObject-RateLimiting', :path => '../'
+  
+  
+end

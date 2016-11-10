@@ -1,0 +1,16 @@
+PODS:
+  - NSObject-RateLimiting (0.1.0)
+
+DEPENDENCIES:
+  - NSObject-RateLimiting (from `../`)
+
+EXTERNAL SOURCES:
+  NSObject-RateLimiting:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSObject-RateLimiting: b28aa3361589b66de70b5ad627c7d8bc46487fcd
+
+PODFILE CHECKSUM: 0910b2ee5dd75e40453eb92cb2503d4669c600ed
+
+COCOAPODS: 1.1.1
