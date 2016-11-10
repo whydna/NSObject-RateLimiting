@@ -27,3 +27,32 @@ For a visual explaination of the differences between throttling and debouncing, 
 
 
 
+# NSObject-RateLimiting
+
+[![CI Status](http://img.shields.io/travis/Andy Hin/NSObject-RateLimiting.svg?style=flat)](https://travis-ci.org/Andy Hin/NSObject-RateLimiting)
+[![Version](https://img.shields.io/cocoapods/v/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
+[![License](https://img.shields.io/cocoapods/l/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
+[![Platform](https://img.shields.io/cocoapods/p/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+NSObject-RateLimiting is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "NSObject-RateLimiting"
+```
+
+## Author
+
+Andy Hin, hinandy@gmail.com
+
+## License
+
+NSObject-RateLimiting is available under the MIT license. See the LICENSE file for more info.
