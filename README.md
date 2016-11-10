@@ -29,7 +29,7 @@ For a visual explaination of the differences between throttling and debouncing, 
 
 # NSObject-RateLimiting
 
-[![CI Status](http://img.shields.io/travis/James Chen/NSObject-RateLimiting.svg?style=flat)](https://travis-ci.org/James Chen/NSObject-RateLimiting)
+[![CI Status](http://img.shields.io/travis/Andy Hin/NSObject-RateLimiting.svg?style=flat)](https://travis-ci.org/Andy Hin/NSObject-RateLimiting)
 [![Version](https://img.shields.io/cocoapods/v/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
 [![License](https://img.shields.io/cocoapods/l/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
 [![Platform](https://img.shields.io/cocoapods/p/NSObject-RateLimiting.svg?style=flat)](http://cocoapods.org/pods/NSObject-RateLimiting)
@@ -51,7 +51,7 @@ pod "NSObject-RateLimiting"
 
 ## Author
 
-James Chen, jam.chen@mac.com
+Andy Hin, hinandy@gmail.com
 
 ## License
 
