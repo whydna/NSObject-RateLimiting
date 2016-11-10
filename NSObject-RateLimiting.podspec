@@ -23,11 +23,11 @@ Adds 2 category methods to NSObject to support rate limiting to method calls:
 - (void)debounce:(nonnull SEL)action withObject:(nullable id)object duration:(NSTimeInterval)duration;
                        DESC
 
-  s.homepage         = 'https://github.com/jamchen/NSObject-RateLimiting'
+  s.homepage         = 'https://github.com/whydna/NSObject-RateLimiting'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'James Chen' => 'jam.chen@mac.com' }
-  s.source           = { :git => 'https://github.com/jamchen/NSObject-RateLimiting.git', :tag => s.version.to_s }
+  s.author           = { 'Andy Hin' => 'hinandy@gmail.com' }
+  s.source           = { :git => 'https://github.com/whydna/NSObject-RateLimiting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
