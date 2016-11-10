@@ -31,7 +31,7 @@ Adds 2 category methods to NSObject to support rate limiting to method calls:
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.osx.deployment_target = '10.8'
   s.source_files = 'NSObject-RateLimiting/Classes/**/*'
   
   # s.resource_bundles = {
