@@ -27,7 +27,7 @@ Adds 2 category methods to NSObject to support rate limiting to method calls:
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'James Chen' => 'jam.chen@mac.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NSObject-RateLimiting.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jamchen/NSObject-RateLimiting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
